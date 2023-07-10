@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" type="module"></script>
+    <script src="hauffman.js" type="module"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Belanosima&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+    <div class="header">
+        <h1>HAUFFMAN ENCODER DECODER</h1>
+    </div>
+    
+    <div class="container">
+        <div class="text_box" style="overflow-y: scroll">
+            <span id="treearea" style="width: 100%; text-align: center; font-size: medium;">
+                Tree Structure Will Be Displayed Here !!
+            </span>
+        </div>
+        <div class="text_box" style="overflow-y: scroll">
+            <span id="temptext" style="width: 100%; text-align: center; font-size: x-large;">
+                Operation info will be shown here !!
+            </span>
+        </div>
+    </div>
+    <div class="functions">
+        <form method="post" enctype="multipart/form-data">
+            <input type="file" id="uploadfile">
+        </form>
+        <div class="ec">
+            <button class="btn" id="encode">ENCODE</button>
+            <button class="btn" id="decode">DECODE</button>
+        </div>
+    </div>
+
+
+</body>
+
+</html>
