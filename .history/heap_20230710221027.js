@@ -1,5 +1,5 @@
 
-export { BinaryHeap }
+// export { BinaryHeap }
 
 // import { extract } from "tar";
 
@@ -65,7 +65,7 @@ class BinaryHeap {
     }
 
     insert(value) {
-        if (this.heap.length != 0) {
+        if (this.heap.size() != 0) {
             this.heap.push(value);
             this.bubbleUp();
         }
